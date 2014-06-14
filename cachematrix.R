@@ -2,8 +2,8 @@
 ## functions do
 # makeCacheMatrix stores a cached variable and defines get/set functions,
 #   returning a list of these functions
-# cacheSolve applies the function solve() to a matrix, and assumes it is 
-#   given a makeCacheMatrix object
+# cacheSolve get the cached value if possible, othewise it applies the 
+#  function solve() to a matrix. It assumes it is given a makeCacheMatrix object
 
 ## Write a short comment describing this function
 # cache the inverse of a matrix by using get/set functions
